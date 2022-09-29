@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Thousand Years</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Prompt:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;700&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    <section class="sub-header">
+      <nav>
+          <a href="index.html"><img src="img/1.png" alt="logo"></a>
+          <div class="nav-links" id="navLinks">
+              <i class="fa fa-times" onclick="hideMenu()"></i>
+              <ul>
+                  <li class="nav-items"><a href="index.html">Home</a></li>
+                  <li class="nav-items"><a href="about.html">About</a></li>
+                  <li class="nav-items"><a href="blog.html">Certificates&Activities</a></li>
+                  <li class="nav-items"><a href="contact.html">Contact</a></li>
+              </ul>
+          </div>
+          <i class="fa fa-bars" onclick="showMenu()"></i>
+      </nav>
+
+        <h1>About Us</h1>
+
+    </section>
+
+    <!-About us content-->
+    <section class="about-us">
+        <div class="row">
+            <div class="about-col">
+                <h1>พวกเราจาก THOUSAND YEARS</h1>
+                <p>พวกเราชาว THOUSAND YEARS เป็นนักเรียนในจังหวัดชลบุรี ที่มีความฝ่ฝนที่จะเป็นวิศวะกร computer แต่ตอนนี้พวากเราเป็นเพียง Devaloper มือใหม่ที่ใฝ่หาคสามรู้และความเข้าใจในภาษาต่างๆที่รู้อยู่แล้วและยังไม่รุ้ โดยที่จะศึกษาในภาษานั้นๆให้ลึกซึ้งมากขึ้น และยังขาดประสบการณ์อีกมากในด้านการเขียน code ในภาษาต่างอย่างลึกซึ้ง</p>
+
+            </div>
+
+            <div class="about-col">
+                <img src="img/thou.png">
+            </div>
+        </div>
+    </section>
+
+    <hr>
+    <!-- -----------Footer------------------->
+    <section class="footer">
+        <h4>About Us</h4>
+        <p>We are the team from chonradsadornumrung school<br>
+            We hope you will get a good experience from this website</p>
+
+        <div class="icons">
+            <a href="https://www.facebook.com/Thanwitthawat"
+                target="_blank" rel="noreferrer noopener"><i class="fa fa-facebook"></i></a>
+            <a href="https://www.instagram.com/thrrwithwas/" target="_blank" rel="noreferrer noopener"><i
+                    class="fa fa-instagram"></i></a>
+            <a href="https://github.com/5t6dryrt" target="_blank" rel="noreferrer noopener"><i
+                    class="fa fa-github"></i></a>
+
+        </div>
+        <p>Made With <i class="fa fa-heart-o"> </i> by THOUSAND YEARS</p>
+    </section>
+</body>
+
+<!-- -----------JAVA Script------------------->
+
+<script>
+    var navLinks = document.getElementById("navLinks");
+    function showMenu() {
+        navLinks.style.right = "0";
+    }
+    function hideMenu() {
+        navLinks.style.right = "-200px";
+    }
+</script>
+
+</html>

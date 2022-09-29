@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script type="module" src="https://unpkg.com/@google/model-viewer/dist/model-viewer.min.js"></script>
+    <title>Thousand Years</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Prompt:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;700&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    <section class="header">
+        <nav>
+            <a href="index.html"><img src="img/1.png" alt="logo"></a>
+            <div class="nav-links" id="navLinks">
+                <i class="fa fa-times" onclick="hideMenu()"></i>
+                <ul>
+                    <li class="nav-items"><a href="index.html">Home</a></li>
+                    <li class="nav-items"><a href="about.html">About</a></li>
+                    <li class="nav-items"><a href="blog.html">Certificates&Activities</a></li>
+                    <li class="nav-items"><a href="contact.html">Contact</a></li>
+                </ul>
+            </div>
+            <i class="fa fa-bars" onclick="showMenu()"></i>
+        </nav>
+
+        <div class="text-box">
+            <model-viewer style="height:400px;width:50%;left:25%;" src="3d\1000YEARS.gltf" ar ar-modes="webxr scene-viewer quick-look" camera-controls poster="poster.webp" shadow-intensity="1" auto-rotate min-camera-orbit="auto 52deg 11.68m" min-field-of-view="30deg" max-camera-orbit="auto 94deg auto"> </model-viewer>
+            <p >รวมหมามืดแห่งวงการโปรแกรมเมอร์ชั้นเเนวหลังของประเทศไทย</p>
+
+            <a href="#reason" class="hero-btn" >เยี่ยมชมเพิ่มเติม</a>
+        </div>
+
+    </section>
+
+
+    <!-- ----------- reason ------------------->
+    <section class="reason" id="reason">
+        <h1>เหตุผลที่อยากเข้าร่วมกิจกรรม</h1>
+        <div class="row">
+            <div class="reason-col">
+                <h3>Socials</h3>
+                <p>เพื่อเป็นการเปิดโลกทัศน์ เกี่ยวกับสังคมของ Developer และ ต้องการหาเพื่อนต่างโรงเรียน ที่มีความสนใจในเรื่องเดียวกัน เพื่อปรึกษาษาในเรื่อง code และภาษาต่างๆ เป็นต้น</p>
+            </div>
+            <div class="reason-col">
+                <h3>Knowledge </h3>
+                <p>เพื่อศึกษาความรู้เกี่ยวกับเรื่อง code ในภาษาอื่นและเพื่อเพิ่มความชำนาญเกี่ยวกับเครื่องมือในภาษาที่เขียนได้อยู่แล้วให้ลึกซึ้งขึ้น</p>
+            </div>
+            <div class="reason-col">
+                <h3>Experience</h3>
+                <p>Experience:หากเปรียบการเขียนcode เป็นคณิตศาสตร์ หากเราเพียงศึกษาแต่ไม่ลงมือทำ ก็จะขาดประสบการณ์ในการแก้โจทย์ปัญหา เช่นเดียวกับเขียน code
+                  หากไม่ลองไปสัมผัสประสบการณ์การทำงาน ก็จะไม่สามารถรังสรรค์ผลงานที่สุดยอด ดีเลิศออกมาได้ ดังนั้นพวกเราจึงอยากเข้าอบรมเพื่อไปสัมผัสประสบการณ์การเขียน code และเรียนรู้ ประสบการณ์ของพี่ๆ วิทยาการครับ</p>
+            </div>
+        </div>
+    </section>
+
+
+    <!-- ----------- team ------------------->
+
+    <section class="team">
+        <h1>สมาชิก</h1>
+        <p>นี่คือสมาชิกของเราที่เฟ้นหาสุดความสามารถ ทั่วทุกสารทิศทั่วประเทศไทย</p>
+
+
+        <div class="row">
+            <div class="team-col">
+                <img src="img/tongla.png">
+                <div class="layer">
+                    <a href="https://www.facebook.com/Thanwitthawat/" target="_blank">ต้นกล้า</a>
+                </div>
+            </div>
+            <div class="team-col">
+                <img src="img/tonnam.png">
+                <div class="layer">
+                    <a href="https://www.facebook.com/tonnamxz" target="_blank">ต้นน้ำ</a>
+                </div>
+            </div>
+            <div class="team-col">
+                <img src="img/zah.png">
+                <div class="layer">
+                    <a href="https://www.facebook.com/kingmaster.sag" target="_blank">เเซค</a>
+                </div>
+            </div>
+        </div>
+
+    </section>
+    <!-- -----------activity------------------->
+
+    <section class="activity">
+        <h1>ผลงานเเละกิจกรรมของเรา</h1>
+        <p>จากที่ได้ร่วมกิจกรรมมาทั้งหมดในมัธยมศึกษาตอนปลายที่เป็นเเรงบันดาลใจของเเต่ละคน</p>
+        <div class="row">
+            <div class="activity-col">
+                <img src="img/cer1.jpg" >
+                <h3>รางวัลรองชนะเลิศ อันดับ 1 ในงาน ITDAY2022</h3>
+                <p>ได้รับรางวัลรองชนะเลิศ อันดับ 1
+                    ในการแข่งขัน Computer Graphic and Homepage Contest
+                    ระดับมัธยมศึกษาตอนปลาย
+                    ในปี 2565</p>
+            </div>
+            <div class="activity-col">
+                <img src="img/cer2.png">
+                <h3>CS50</h3>
+                <p>ได้เข้าร่วม CS50 ของ Harvard University ซึ่งเป็นการอบรมการเขียนโปรเเกรมคอมพิวเตอร์ภาษา Python โดย David J. Malan ซึ่งเป็นศาสตราจารย์ประจำคณะ Computer Science
+                  <br>ผ่านโปรเเกรม MS Team</p>
+            </div>
+            <div class="activity-col">
+                <img src="img/mis.png">
+                <h3>โครงงาน Discord bot</h3>
+                <p>บอทเปิดเพลงในดิสคอร์ดโดยบอทดัวนี้ถูกเขียนขึ้นโดยใช้ภาษา jascript ในการกำหนดคำสั่งและการทำงานของตัวบอท Missing late เป็นโครงงานในวิชาคอมพิวเตอร์ในระดับชั้นม.4 ปีการศึกษา 2564</p>
+            </div>
+        </div>
+        <a href="blog.html" class="hero-btn-black" >เยี่ยมชมเพิ่มเติม</a>
+    </section>
+
+
+
+    <!-- -----------Footer------------------->
+
+    <section class="footer">
+        <h4>About Us</h4>
+        <p>We are the team from chonradsadornumrung school<br>
+            We hope you will get a good experience from this website</p>
+
+            <div class="icons">
+                <a href="https://www.facebook.com/Thanwitthawat"
+                    target="_blank" rel="noreferrer noopener"><i class="fa fa-facebook"></i></a>
+                <a href="https://www.instagram.com/thrrwithwas/" target="_blank" rel="noreferrer noopener"><i
+                        class="fa fa-instagram"></i></a>
+                <a href="https://github.com/5t6dryrt" target="_blank" rel="noreferrer noopener"><i
+                        class="fa fa-github"></i></a>
+
+            </div>
+            <p>Made With <i class="fa fa-heart-o"> </i> by THOUSAND YEARS</p>
+    </section>
+</body>
+
+<!-- -----------java Script------------------->
+
+<script>
+    var navLinks = document.getElementById("navLinks");
+    function showMenu() {
+        navLinks.style.right = "0";
+    }
+    function hideMenu() {
+        navLinks.style.right = "-200px";
+    }
+</script>
+
+</html>

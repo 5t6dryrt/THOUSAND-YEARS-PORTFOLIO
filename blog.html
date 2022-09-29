@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Thousand Years</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;700&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    <section class="sub-header">
+      <nav>
+          <a href="index.html"><img src="img/1.png" alt="logo"></a>
+          <div class="nav-links" id="navLinks">
+              <i class="fa fa-times" onclick="hideMenu()"></i>
+              <ul>
+                  <li class="nav-items"><a href="index.html">Home</a></li>
+                  <li class="nav-items"><a href="about.html">About</a></li>
+                  <li class="nav-items"><a href="blog.html">Certificates&Activities</a></li>
+                  <li class="nav-items"><a href="contact.html">Contact</a></li>
+              </ul>
+          </div>
+          <i class="fa fa-bars" onclick="showMenu()"></i>
+      </nav>
+
+        <h1>Our Certificate & Activities</h1>
+
+    </section>
+
+    <section class="activity">
+        <div class="row">
+            <div class="activity-col">
+                <img src="img/cer1.jpg" >
+                <h3>รางวัลรองชนะเลิศ อันดับ 1 ในงาน ITDAY2022</h3>
+                <p>ได้รับรางวัลรองชนะเลิศ อันดับ 1
+                    ในการแข่งขัน Computer Graphic and Homepage Contest
+                    ระดับมัธยมศึกษาตอนปลาย
+                    ในปี 2565</p>
+            </div>
+            <div class="activity-col">
+                <img src="img/cer2.png">
+                <h3>CS50</h3>
+                <p>ได้เข้าร่วม CS50 ของ Harvard University ซึ่งเป็นการอบรมการเขียนโปรเเกรมคอมพิวเตอร์ภาษา Python โดย David J. Malan ซึ่งเป็นศาสตราจารย์ประจำคณะ Computer Science
+                  <br>ผ่านโปรเเกรม MS Team</p>
+            </div>
+            <div class="activity-col">
+                <img src="img/mis.png">
+                <h3>โครงงาน Discord bot</h3>
+                <p>บอทเปิดเพลงในดิสคอร์ดโดยบอทดัวนี้ถูกเขียนขึ้นโดยใช้ภาษา jascript ในการกำหนดคำสั่งและการทำงานของตัวบอท Missing late เป็นโครงงานในวิชาคอมพิวเตอร์ในระดับชั้นม.4 ปีการศึกษา 2564</p>
+            </div>
+        </div>
+        <div class="row">
+            <div class="activity-col">
+                <img src="img/cer2.jpg" >
+                <h3>รางวัลรองชนะเลิศ อันดับ 1 ในงาน ศิลปหัถกรรม 2562</h3>
+                <p>ได้รับรางวัลรองชนะเลิศ อันดับ 1 ในการแข่งขันการสร้าง Webpage ประเภท Web Editor ระดับมัธยมศึกษาตอนต้น ในระดับเขต ฯ ในปี 2562</p>
+            </div>
+            <div class="activity-col">
+                <img src="img/act1.jpg">
+                <h3>โครงงานเครื่องนับคนภายในอาคาร</h3>
+                <p>ออกแบบและเขียนโปรแกรมภาษา C ++ (Arduino) สำหรับโครงงาน ในวิชา IS ช่วงมัธยมศึกษาปีที่ 4 </p>
+                <a href="https://drive.google.com/drive/folders/1AfAPDQHh_EOF7yvhML-oHzcDsN-1c0yD?usp=sharing" target="_blank">ไฟล์โครงงาน</a>
+            </div>
+            <div class="activity-col">
+                <img src="img/act2.jpg">
+                <h3>ผลงานโมเดล 3 มิติ</h3>
+                <p>ผลงานโมเดล 3 มิติบางส่วน ตั้งแต่ปลายปี2563 - ปัจจุบัน มีการเขียนโค้ดในการช่วยสร้างโมเดลที่สมบูรณ์มากขึ้น</p>
+                <a href="https://drive.google.com/drive/folders/13cxfTp7Q4Zzp51UG9pu8RXNgApTyiRNg?usp=sharing" target="_blank">ไฟล์รูปภาพ</a>
+            </div>
+        </div>
+        <hr>   
+     <!-- -----------Footer------------------->
+
+    <section class="footer">
+        <h4>About Us</h4>
+        <p>We are the team from chonradsadornumrung school<br>
+            We hope you will get a good experience from this website</p>
+
+            <div class="icons">
+                <a href="https://www.facebook.com/Thanwitthawat"
+                    target="_blank" rel="noreferrer noopener"><i class="fa fa-facebook"></i></a>
+                <a href="https://www.instagram.com/thrrwithwas/" target="_blank" rel="noreferrer noopener"><i
+                        class="fa fa-instagram"></i></a>
+                <a href="https://github.com/5t6dryrt" target="_blank" rel="noreferrer noopener"><i
+                        class="fa fa-github"></i></a>
+
+            </div>
+            <p>Made With <i class="fa fa-heart-o"> </i> by THOUSAND YEARS</p>
+    </section>
+</body>
+   
+
+<!-- -----------JAVA Script------------------->
+
+<script>
+    var navLinks = document.getElementById("navLinks");
+    function showMenu() {
+        navLinks.style.right = "0";
+    }
+    function hideMenu() {
+        navLinks.style.right = "-200px";
+    }
+</script>
+
+</html>
