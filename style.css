@@ -1,4 +1,3 @@
-
 * {
     margin: 0;
     padding: 0;
@@ -208,6 +207,7 @@ nav .fa {
     padding-top: 100px;
     text-align: center;
     width: 80%;
+    height: 100vh;
 }
 
 .reason h1 {
@@ -270,7 +270,7 @@ nav .fa {
 
 .team {
     margin: auto;
-    padding-top: 100px;
+    padding-top: 20px;
     text-align: center;
     width: 80%;
 }
